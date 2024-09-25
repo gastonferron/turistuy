@@ -14,7 +14,8 @@ CREATE TABLE users(
 CREATE TABLE department(
 	url VARCHAR(2048),
     name_department VARCHAR(20),
-    explanation VARCHAR(300)
+    explanation VARCHAR(300),
+    PRIMARY KEY(name_deparment)
 );
 CREATE TABLE tourist(
 	id_tourist INT UNSIGNED AUTO_INCREMENT,
