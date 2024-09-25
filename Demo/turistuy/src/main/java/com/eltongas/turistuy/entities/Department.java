@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private id
-
+    private String name_department;
+    private String url;
+    private String explanation;
 }

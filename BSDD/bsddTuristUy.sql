@@ -12,8 +12,8 @@ CREATE TABLE users(
 	PRIMARY KEY(id_user)
 );
 CREATE TABLE department(
-	url VARCHAR(2048),
     name_department VARCHAR(20),
+    url VARCHAR(2048),
     explanation VARCHAR(300),
     PRIMARY KEY(name_deparment)
 );
