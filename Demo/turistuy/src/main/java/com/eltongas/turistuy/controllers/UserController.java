@@ -17,7 +17,6 @@ public class UserController {
     public ResponseEntity<Users> createUser(@RequestBody Users users) {
         Users newUsers = userServices.saveUser(users);
         System.out.println("Datos " + users.toString());
-
         return new ResponseEntity<>(newUsers, HttpStatus.OK);
 
     }
